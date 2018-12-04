@@ -12,4 +12,14 @@ jumpshell
 historysubstring search
 vim link - vim 
 
-Idee gnu installation 
+Idea to get all advantaages above:
+Goal is:
+prompt wiht git
+colorbars
+exa
+completion
+jumpshell
+
+
+
+https://medium.com/@oldwestaction/beautifying-your-terminal-with-zsh-prezto-powerlevel9k-9e8de2023046
