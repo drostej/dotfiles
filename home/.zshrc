@@ -9,9 +9,15 @@
 #
 #5. Homebrew
 #
+#6. Jumpshell
 #
 #X. SDKMAN Obligatory at the end of the file
 #
+#
+#
+	[[ -s /Users/drostej/.autojump/etc/profile.d/autojump.sh ]] && source /Users/drostej/.autojump/etc/profile.d/autojump.sh
+
+	autoload -U compinit && compinit -u
 
 # 1. make terminal better
 #---------------------------------------------------------------------------------------------------
@@ -20,8 +26,6 @@ alias vi="vim"
 alias aws="/usr/local/bin/aws"
 alias brew="/usr/local/bin/brew"
 alias kdiff3="/usr/local/bin/kdiff3"
-
- [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 # 2. nodeJS configuration                                                                          
 #---------------------------------------------------------------------------------------------------
@@ -57,6 +61,9 @@ ssh-add ~/.ssh/jdrostehh\@gmail.com
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
+
+# 6. jumpshell
+# [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # SDKMan, Java, groovy and mvn setup
 #---------------------------------------------------------------------------------------------------

@@ -23,9 +23,7 @@ for f in ${DOTTHINGS}; do
   link_or_fail $f
 done
 
-link_or_fail "home/.zsh"
-link_or_fail "home/.rib"
-link_or_fail "home/.fonts"
+#link_or_fail "home/.zsh"
 
 mkdir -p "${HOME}/.config"
 DOTTHINGS=$(find home/.config -mindepth 1 -maxdepth 1 -type d)

@@ -5,6 +5,7 @@
 #
 
 TOOLSTOINTALL=(autojump, exa);
+# autojump has to be installed manually in several darwin instances. Flollow the steps with phyton on github
 
 for tool in "${TOOLSTOINTALL[@]}"
 do
@@ -17,3 +18,6 @@ do
         #apt-get install $tool;
      fi
 done
+
+
+

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54584273-49e5-4cff-beb4-e88b3445f405" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/intall_bash_tools.sh" afterPath="$PROJECT_DIR$/intall_bash_tools.sh" />
-      <change beforePath="$PROJECT_DIR$/relink.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/rlink.sh" afterPath="$PROJECT_DIR$/rlink.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rlink.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rlink.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rlink.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intall_bash_tools.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="intall_bash_tools.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intall_bash_tools.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -86,6 +86,7 @@
         <option value="$PROJECT_DIR$/relink.sh" />
         <option value="$PROJECT_DIR$/rlink2.sh" />
         <option value="$PROJECT_DIR$/intall_bash_tools.sh" />
+        <option value="$PROJECT_DIR$/rlink.sh" />
       </list>
     </option>
   </component>
@@ -96,8 +97,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="625" />
-    <option name="y" value="342" />
+    <option name="x" value="396" />
+    <option name="y" value="96" />
     <option name="width" value="1667" />
     <option name="height" value="1162" />
   </component>
@@ -160,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.rlink2.sh">
+  <component name="RunManager" selected="Bash.rlink.sh">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -207,6 +208,16 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlink2.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="rlink.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlink.sh" />
       <option name="PARAMETERS" value="" />
       <module name="" />
       <envs />
@@ -271,16 +282,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Bash.relink.sh" />
       <item index="1" class="java.lang.String" itemvalue="Bash.intall_bash_tools.sh" />
       <item index="2" class="java.lang.String" itemvalue="Bash.rlink2.sh" />
+      <item index="3" class="java.lang.String" itemvalue="Bash.rlink.sh" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Bash.rlink2.sh" />
-        <item index="1" class="java.lang.String" itemvalue="Bash.relink.sh" />
-        <item index="2" class="java.lang.String" itemvalue="Bash.intall_bash_tools.sh" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Bash.rlink.sh" />
+        <item index="1" class="java.lang.String" itemvalue="Bash.rlink2.sh" />
+        <item index="2" class="java.lang.String" itemvalue="Bash.relink.sh" />
+        <item index="3" class="java.lang.String" itemvalue="Bash.intall_bash_tools.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +312,7 @@
       <updated>1543587464933</updated>
       <workItem from="1543587466382" duration="4566000" />
       <workItem from="1543593435685" duration="6273000" />
-      <workItem from="1543844831163" duration="1746000" />
+      <workItem from="1543844831163" duration="4691000" />
     </task>
     <task id="LOCAL-00001" summary="script for setup and syncing dotfiles">
       <created>1543599397838</created>
@@ -312,10 +325,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12585000" />
+    <option name="totallyTimeSpent" value="15530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="625" y="342" width="1667" height="1162" extended-state="0" />
+    <frame x="396" y="96" width="1667" height="1162" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -326,9 +339,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40581068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3683224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -449,18 +462,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/relink.sh" />
-    <entry file="file://$PROJECT_DIR$/rlink.sh">
+    <entry file="file://$PROJECT_DIR$/intall_bash_tools.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intall_bash_tools.sh">
+    <entry file="file://$PROJECT_DIR$/rlink.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
