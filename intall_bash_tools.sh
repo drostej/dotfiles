@@ -4,7 +4,7 @@
 # Install all mentioned tools in TOOLTOINSALL in Debian or OS X
 #
 
-TOOLSTOINTALL=(autojump);
+TOOLSTOINTALL=(autojump, exa);
 
 for tool in "${TOOLSTOINTALL[@]}"
 do
