@@ -5,24 +5,16 @@ Summary of my common dotfiles
 TODO
 idea console call for diffs documentaion
 ssh config
-
-
+historysubstring search
 
 Includes
 ls -la exa
 loop over .ssh folder
 jumpshell
-historysubstring search
 vim link - vim 
-
-Idea to get all advantaages above:
-Goal is:
-prompt wiht git
-colorbars
 exa
 zsh-completion
 jumpshell
-
 
 ### Ok I get it, How do I install the thing?
 Open up a Terminal and launch zsh.
