@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54584273-49e5-4cff-beb4-e88b3445f405" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dotfiles.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/home/.zshrc.swp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/rlink.sh" afterPath="$PROJECT_DIR$/rlink.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -342,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543599397838</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="script for setup and syncing dotfiles">
+      <created>1545228852194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545228852194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18477000" />
+    <option name="totallyTimeSpent" value="18536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2710" y="224" width="1667" height="1162" extended-state="0" />
