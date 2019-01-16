@@ -106,3 +106,5 @@ fi
 export JAVA_HOME=export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export PATH="$HOME/.rbenv/bin:$PATH"
 [[ -s "/Users/drostej/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/drostej/.sdkman/bin/sdkman-init.sh"
+
+eval "$(/usr/local/bin/rbenv init -)"
