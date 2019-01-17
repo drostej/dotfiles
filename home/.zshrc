@@ -18,15 +18,13 @@ fi
 #
 #3. Python
 #
-#4. Keys
+#4. Homebrew
 #
-#5. Homebrew
+#5. Jumpshell
 #
-#6. Jumpshell
+#6. Amazon cloud
 #
-#7. Amazon cloud
-#
-#8. Local secrets
+#7. Local secrets
 #
 #X. SDKMAN Obligatory at the end of the file
 #
@@ -68,21 +66,17 @@ PATH="~/Library/Python/2.7/bin:/Applications/:${PATH}"
 export PATH
 (boot2docker shellinit 2> /dev/null)
 
-# 4.Keys
-#---------------------------------------------------------------------------------------------------
-#ssh-add ~/.ssh/jdrostehh\@gmail.com
-
-# 5.homebrew
+# 4.homebrew
 #---------------------------------------------------------------------------------------------------
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 fi
 
-# 6. jumpshell
+# 5. jumpshell
 [[ -s /Users/drostej/.autojump/etc/profile.d/autojump.sh ]] && source /Users/drostej/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
-# 7.Amazon
+# 6.Amazon
 #-----------------------------------------------------------------------------------------------------
 #
 export AWS_IAM_USER_NAME="juergen.droste"
@@ -90,7 +84,7 @@ export AWS_MFA_SERIAL_NUMBER="arn:aws:iam::291603880373:mfa/juergen.droste"
 export AWS_TARGET_ROLE_ARN="arn:aws:iam::121696051528:role/AdminsFullaccess"
 export AWS_PROFILE="tefde-ccm-winback-dev"
 
-# 8. Local secrets
+# 7. Local secrets
 #-----------------------------------------------------------------------------------------------------
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
