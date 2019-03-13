@@ -12,7 +12,7 @@ ls -la exa
 loop over .ssh folder
 jumpshell
 vim link - vim 
-exa
+exa - brew install exa
 zsh-completion
 jumpshell
 
