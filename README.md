@@ -5,10 +5,11 @@ Summary of my common dotfiles
 TODO
 idea console call for diffs documentaion w
 ssh config w n
-historysubstring search 
+historysubstring search w
 Rufo - ruby Text formatter for w
 clippy - multiple clipboard -brew cask install clipy-w
 tunnelblick - brew cask install tunnelblick
+zjump w
 
 Includes
 ls -la exa
