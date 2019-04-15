@@ -95,6 +95,10 @@ then
  source ~/.localrc
 fi
 
+# 8. Setup rbenv to replace the native osx ruby with rbenv
+#-----------------------------------------------------------------------------------------------------
+eval "$(rbenv init -)"
+
 # SDKMan, Java, groovy and mvn setup
 #---------------------------------------------------------------------------------------------------
 
