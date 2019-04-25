@@ -73,9 +73,7 @@ if type brew &>/dev/null; then
 fi
 
 # 5. jumpshell
-#[[ -s /Users/drostej/.autojump/etc/profile.d/autojump.sh ]] && source /Users/drostej/.autojump/etc/profile.d/autojump.sh
-#autoload -U compinit && compinit -u
-source zjump/zjump.zsh
+source ~/zjump/zjump.zsh
 
 # 6.Amazon
 #-----------------------------------------------------------------------------------------------------
