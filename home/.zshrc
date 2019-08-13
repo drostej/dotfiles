@@ -39,6 +39,7 @@ alias brew="/usr/local/bin/brew"
 alias kdiff3="/usr/local/bin/kdiff3"
 alias tree="exa --tree --level=2 --long"
 alias art="aws-refresh-token-darwin"
+alias conaws="~/script/connect.sh"
 
 # 2. nodeJS configuration
 #---------------------------------------------------------------------------------------------------
