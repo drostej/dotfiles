@@ -26,7 +26,7 @@ fi
 #
 #7. Local secrets
 #
-#X. SDKMAN Obligatory at the end of the file
+#9. VPN-Firma
 #
 
 
@@ -39,7 +39,6 @@ alias brew="/usr/local/bin/brew"
 alias kdiff3="/usr/local/bin/kdiff3"
 alias tree="exa --tree --level=2 --long"
 alias art="aws-refresh-token-darwin"
-alias conaws="~/script/connect.sh"
 
 # 2. nodeJS configuration
 #---------------------------------------------------------------------------------------------------
@@ -74,7 +73,9 @@ if type brew &>/dev/null; then
 fi
 
 # 5. jumpshell
-source ~/zjump/zjump.zsh
+#[[ -s /Users/drostej/.autojump/etc/profile.d/autojump.sh ]] && source /Users/drostej/.autojump/etc/profile.d/autojump.sh
+#autoload -U compinit && compinit -u
+source zjump/zjump.zsh
 
 # 6.Amazon
 #-----------------------------------------------------------------------------------------------------
@@ -98,9 +99,6 @@ fi
 #-----------------------------------------------------------------------------------------------------
 eval "$(rbenv init -)"
 
-# SDKMan, Java, groovy and mvn setup
-#---------------------------------------------------------------------------------------------------
-
-export JAVA_HOME=export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-export PATH="$HOME/.rbenv/bin:$PATH"
-[[ -s "/Users/drostej/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/drostej/.sdkman/bin/sdkman-init.sh"
+# 9. VPN-Devlan Telefonica Setup
+#-----------------------------------------------------------------------------------------------------
+alias vpn-firma="sudo openconnect --background --quiet --disable-ipv6 --protocol=gp --usergroup=portal  --authgroup go-disi.sg.de.o2.com --user drostej go.sg.de.o2.com"
